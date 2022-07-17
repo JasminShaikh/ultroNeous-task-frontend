@@ -1,0 +1,95 @@
+.login-wrapper{
+  display: flex;
+  height: 100vh;
+}
+
+.box-wrapepr{
+  position: absolute;
+  width: 279.86px;
+  height: 857.22px;
+  right: 0;
+  top: 15px;
+
+  background: rgba(63, 82, 96, 0.07);
+  filter: blur(80px);
+  transform: matrix(-0.85, -0.52, -0.52, 0.85, 0, 0);
+}
+.leftside-container{
+  position: relative;
+  flex: 1;
+}
+.leftside-container .img-building{
+  background-image: url("../../Assets/images/building1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100% - 80px);
+}
+.leftside-container header{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 25px;
+  background: rgba(171, 179, 193, 0.15);
+}
+.leftside-container .logo{
+  height: 33px;
+  width: 38px;
+}
+.leftside-container .logo-name{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #3F5260;
+  margin-left: 15px;
+}
+
+
+.rightside-container{
+  flex: 1;
+  background: rgba(171, 179, 193, 0.15);
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+input{
+  box-sizing: border-box;  
+  height: 52px;
+  border: 1px solid #3F5260;
+  border-radius: 10px;
+  background: rgba(171, 179, 193, 0.15);
+  margin-bottom: 15px;
+  width: 350px;
+}
+form{
+  text-align: center;
+  padding: 25px 50px;
+}
+.welcome-back{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #3F5260;  
+}
+.signin-back{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #3F5260;
+}
+
+.signin-btn{
+  background: #3F5260;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  padding: 15px;
+}
